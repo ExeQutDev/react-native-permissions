@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		176A74041F8B32820076D7A1 /* RNPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 176A74031F8B32820076D7A1 /* RNPLocation.m */; };
+		176A74651F8B34E40076D7A1 /* RNPAudioVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 176A74641F8B34E40076D7A1 /* RNPAudioVideo.m */; };
 		9D46283F1D34719100346A5B /* RNPBackgroundRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4628311D34719100346A5B /* RNPBackgroundRefresh.m */; };
 		9D4628441D34719100346A5B /* RNPNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D46283B1D34719100346A5B /* RNPNotification.m */; };
 		9D4628451D34719100346A5B /* RNPPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D46283D1D34719100346A5B /* RNPPhoto.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		176A74021F8B32820076D7A1 /* RNPLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPLocation.h; path = permissions/RNPLocation.h; sourceTree = SOURCE_ROOT; };
 		176A74031F8B32820076D7A1 /* RNPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPLocation.m; path = permissions/RNPLocation.m; sourceTree = SOURCE_ROOT; };
+		176A74631F8B34E40076D7A1 /* RNPAudioVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPAudioVideo.h; path = permissions/RNPAudioVideo.h; sourceTree = SOURCE_ROOT; };
+		176A74641F8B34E40076D7A1 /* RNPAudioVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPAudioVideo.m; path = permissions/RNPAudioVideo.m; sourceTree = SOURCE_ROOT; };
 		9D23B34F1C767B80008B4819 /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativePermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4628301D34719100346A5B /* RNPBackgroundRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPBackgroundRefresh.h; path = permissions/RNPBackgroundRefresh.h; sourceTree = SOURCE_ROOT; };
 		9D4628311D34719100346A5B /* RNPBackgroundRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPBackgroundRefresh.m; path = permissions/RNPBackgroundRefresh.m; sourceTree = SOURCE_ROOT; };
@@ -85,6 +88,8 @@
 		9D4628091D33C1EC00346A5B /* permissions */ = {
 			isa = PBXGroup;
 			children = (
+				176A74631F8B34E40076D7A1 /* RNPAudioVideo.h */,
+				176A74641F8B34E40076D7A1 /* RNPAudioVideo.m */,
 				176A74021F8B32820076D7A1 /* RNPLocation.h */,
 				176A74031F8B32820076D7A1 /* RNPLocation.m */,
 				9D4628301D34719100346A5B /* RNPBackgroundRefresh.h */,
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176A74651F8B34E40076D7A1 /* RNPAudioVideo.m in Sources */,
 				9D46283F1D34719100346A5B /* RNPBackgroundRefresh.m in Sources */,
 				176A74041F8B32820076D7A1 /* RNPLocation.m in Sources */,
 				9D4628451D34719100346A5B /* RNPPhoto.m in Sources */,
