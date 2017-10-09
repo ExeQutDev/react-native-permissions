@@ -187,11 +187,11 @@ RCT_REMAP_METHOD(requestPermission, permissionType:(RNPType)type json:(id)json r
 
 - (void) requestBluetooth:(RCTPromiseResolveBlock)resolve
 {
-    if (self.bluetoothMgr == nil) {
-        self.bluetoothMgr = [[RNPBluetooth alloc] init];
-    }
-
-    [self.bluetoothMgr request:resolve];
+//    if (self.bluetoothMgr == nil) {
+//        self.bluetoothMgr = [[RNPBluetooth alloc] init];
+//    }
+//
+//    [self.bluetoothMgr request:resolve];
 }
 
 
